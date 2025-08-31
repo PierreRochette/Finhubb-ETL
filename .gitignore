@@ -2,3 +2,4 @@ venv
 .env
 financial_data.csv
 test_timer.log
+finnhub.log

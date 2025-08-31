@@ -12,3 +12,10 @@
 
 - Please refer to my notion documentation about creating a timer service
 
+- `cat /etc/systemd/system/finnhub.service`
+- `cat /etc/systemd/system/finnhub.timer`
+- `sudo systemctl daemon-reload`
+- `sudo systemctl enable --now finnhub.timer`
+- `systemctl status finnhub.timer`
+- `sudo systemctl start finnhub.service`
+

@@ -7,3 +7,8 @@
 - Run `source venv/bin/activate`
 - Run `pip install -r requirements.txt`
 - Run `python init.py` : if nothing outputed, check if the table has been created. It is supposed to have worked. 
+
+# Create a service to execute the script
+
+- Please refer to my notion documentation about creating a timer service
+

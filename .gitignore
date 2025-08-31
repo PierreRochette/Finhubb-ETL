@@ -1,4 +1,4 @@
 venv
 .env
 financial_data.csv
-test_cron.log
+test_timer.log

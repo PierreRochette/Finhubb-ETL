@@ -5,5 +5,5 @@
 
 - Initialise a python virtual env : `python -m venv venv`
 - Run `source venv/bin/activate`
-- With python, run `python init.py`
-
+- Run `pip install -r requirements.txt`
+- Run `python init.py` : if nothing outputed, check if the table has been created. It is supposed to have worked. 

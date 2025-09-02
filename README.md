@@ -19,6 +19,10 @@
 - `systemctl status finnhub.timer`
 - `sudo systemctl start finnhub.service`
 
+# First days 
+
+I noticed that the same price appears three time for each ticker. Only the fourth one looks different. So i changed the time on my VPS (with `timedatectl`) to make it the same as Paris time. Then I changed the timer script to launch the code each days between Monday and Friday, one time per hour, between 16h and 22h (which corresponds to the paris time from opening and closing of NASDAQ market). 
+
 # Flask Application
 
 
